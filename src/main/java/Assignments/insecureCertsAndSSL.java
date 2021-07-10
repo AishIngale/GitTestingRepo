@@ -17,6 +17,7 @@ public class insecureCertsAndSSL {
 		CO.merge(d);
 		WebDriver driver=new ChromeDriver(CO);
 		driver.manage().deleteAllCookies();
+		System.out.println("abc");
 	}
 
 }
